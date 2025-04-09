@@ -1,0 +1,5 @@
+Create PROCEDURE select_emp1(IN eno int)
+BEGIN
+select * from emp where empno=eno;
+END;
+                        

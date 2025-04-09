@@ -1,0 +1,3 @@
+select emp.ename,dept.dname,dept.deptno from emp INNER JOIN dept where emp.deptno=dept.deptno;
+select emp.ename,dept.dname,dept.deptno from emp LEFT JOIN dept ON emp.deptno=dept.deptno;
+select emp.ename,dept.dname,dept.deptno from emp RIGHT JOIN dept ON emp.deptno=dept.deptno;
