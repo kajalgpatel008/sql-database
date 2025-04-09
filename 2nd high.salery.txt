@@ -1,0 +1,3 @@
+select DISTINCT(sal)from emp order by sal desc limit 1,1;
+SELECT sum(sal) from emp as SUM;
+SELECT max(sal) from emp as MAX;
