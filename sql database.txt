@@ -1,0 +1,14 @@
+select* from student where sid >=5;
+select* from student where sid >=5;
+select* from student where sid !=5;
+select* from student where sid in(3,4,5);
+select* from student where sid not in(3,4,5);
+select* from student where sid BETWEEN 2 and 7;
+select* from student where fname like 'R%';
+select* from student where fname like '_a%';
+select* from student where fname like '%l';
+select* from student where fname like '%a_';
+select* from student where fname="kajal" AND lname="patel";
+select* from student where fname="kajal" OR lname="thakkar";
+select* from student order by fname;
+select* from student order by fname desc;
