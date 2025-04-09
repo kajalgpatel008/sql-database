@@ -1,0 +1,9 @@
+update student set email="jigar@gmail.com";
+update student set email="jigar@gmail.com" where sid=5;
+update student set email="jigar@gmail.com" where sid=3;
+
+
+
+delete student database;
+delete from student where fname="jigar" AND lname="patel";
+delete from student where sid=4;

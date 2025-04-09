@@ -1,0 +1,1 @@
+insert into student values(8,"jigar","patel","jigar@gmail.com",9852364178);

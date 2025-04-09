@@ -1,0 +1,7 @@
+insert into student values(1,"jigar","thakkar","jigar.thakkar.tops@gmail.com",9865623475);
+insert into student values(2,"kajal","patel","kajal@gmail.com",9865123475);
+insert into student values(3,"nikhil","patil","nikhil@gmail.com",9865214896);
+insert into student values(4,"rohit","prajapati","rohit@gmail.com",9846235975);
+insert into student values(5,"maulik","patel","maulik@gmail.com",9813468955);
+insert into student values(6,"hetvi","solanki","hetvi@gmail.com",9865626845);
+
