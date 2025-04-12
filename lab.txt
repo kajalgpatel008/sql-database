@@ -1,0 +1,8 @@
+insert into students VALUES(1,"kajal",25,7,"ahmedavad");
+insert into students VALUES(2,"maulik",25,8,"naroda");
+insert into students VALUES(3,"raj",25,9,"nikol");
+insert into students VALUES(4,"hetvi",26,8,"usa");
+insert into students VALUES(5,"sapna",27,8,"maninagar");
+
+
+

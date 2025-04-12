@@ -1,0 +1,1 @@
+create table students(student_id int PRIMARY KEY,student_name Varchar(50),age int,class varchar(50),address varchar(50));

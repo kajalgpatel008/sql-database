@@ -1,0 +1,1 @@
+create view v_emp as SELECT ename,empno,job,mgr,hiredate,deptno from emp;

@@ -1,0 +1,6 @@
+select * from students where student name ="maulik"; 
+select * from students where age =24; 
+select * from students where student_name="kajal" OR age=25 ; 
+select* from students order by student_name;
+select* from students order by student_name desc;
+
