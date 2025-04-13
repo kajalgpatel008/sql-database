@@ -1,0 +1,5 @@
+create table students(student_id int PRIMARY KEY,student_name varchar(50),age int,class varchar(50),address varchar(50),FOREIGN KEY(teacher_id)REFERENCES students(student_id));
+
+
+
+create table teacher(teacher_id int PRIMARY KEY,FOREIGN KEY(teacher_id)REFERENCES students(student_id));
