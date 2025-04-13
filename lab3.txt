@@ -1,0 +1,16 @@
+create table teachers(teacher_id int PRIMARY KEY,teacher_name varchar(50)NOT null,subject varchar(50)NOT null,email varchar(50)UNIQUE);
+
+INSERT INTO `teachers` (`teacher_id`, `teacher_name`, `subject`, `email`) VALUES ('1', 'maulik', 'python', 'maulik@gmail.com'), ('2', 'jigar', 'java', 'jigar@gmail.com');
+
+
+
+
+create table teachers(teacher_id int PRIMARY KEY,teacher_name varchar(50)NOT null,subject varchar(50)NOT null,email varchar(50)UNIQUE,FOREIGN KEY(teacher_id)REFERENCES students(student_id));
+
+
+
+create table students(student_id int PRIMARY KEY,student_name varchar(50),age int,class varchar(50),address varchar(50),FOREIGN KEY(teacher_id)REFERENCES students(student_id));
+
+
+
+create table teacher(teacher_id int PRIMARY KEY,FOREIGN KEY(teacher_id)REFERENCES students(student_id));
