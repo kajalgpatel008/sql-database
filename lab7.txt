@@ -1,0 +1,9 @@
+insert into courses values(2,"python",7);
+insert into courses values(3,"english",8);
+insert into courses values(1,"java",6);
+
+update courses set course_duration=5;
+update courses set course_duration=6 where course_id=3;
+
+DELETE FROM `courses` WHERE course_id=1;
+
