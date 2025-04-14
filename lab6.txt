@@ -1,0 +1,3 @@
+drop table teachers;
+
+drop table students;
