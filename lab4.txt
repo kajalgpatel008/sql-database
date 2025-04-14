@@ -1,0 +1,4 @@
+create table courses(course_id int PRIMARY KEY,course_name varchar(50),course_credits int);
+
+create database university_db;
+
