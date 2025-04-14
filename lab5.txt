@@ -1,0 +1,4 @@
+
+alter table courses add course_duration int;
+
+alter table courses drop course_duration;
