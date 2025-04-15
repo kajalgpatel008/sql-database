@@ -1,5 +1,5 @@
 use demo;
-create table t1(id int PRIMARY KEY AUTO_INCREMENT,fname varchar(50));
+create table t1(id int PRIMARY KEY AUTO_INCREMENT , fname varchar(50));
 
 
 
