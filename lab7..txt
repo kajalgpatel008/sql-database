@@ -1,0 +1,5 @@
+update courses set course_duration=5;
+update courses set course_duration=6 where course_id=3;
+
+DELETE from courses  WHERE course_id = 1;
+
