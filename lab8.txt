@@ -1,0 +1,7 @@
+SELECT * FROM courses WHERE course_name="python";
+
+SELECT * FROM courses order by course_id;
+
+SELECT * FROM courses order by course_credits;
+
+SELECT * FROM courses order by course_name;
