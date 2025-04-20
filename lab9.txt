@@ -1,0 +1,7 @@
+insert into authors values(1,'kirti','puran','gujrat');
+insert into authors values(2,'denish','richi','usa');
+insert into authors values(3,'n.','modi','gujrat');
+
+update authors set last name="patel" where author_id=3;
+
+delete book from table books;
