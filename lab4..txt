@@ -1,0 +1,1 @@
+create table publishers(publisher_id int PRIMARY KEY,publisher_name varchar(50),contact_number bigint UNIQUE,address varchar(50));
