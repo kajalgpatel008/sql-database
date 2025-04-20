@@ -1,0 +1,1 @@
+update authors set year_of_publication=2000 where book_id=1;
