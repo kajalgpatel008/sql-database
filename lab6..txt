@@ -1,0 +1,4 @@
+drop  table publishers from library_db;
+
+drop table members from  library_db;
+
