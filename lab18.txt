@@ -1,0 +1,4 @@
+INSERT INTO `books` (`book_id`, `title`, `author`, `publisher`, `year_of_publication`, `price`) VALUES ('1', 'python', 'rihan', 'model', '1995', '700'), ('2', 'java', 'denish', 'modern', '1996', '900');
+
+
+SELECT * FROM `books`where price>0;
