@@ -1,0 +1,4 @@
+INSERT INTO `members` (`member_id`, `member_name`, `date_of_membership`) VALUES ('1', 'kajal', '10'), ('2', 'maulik', '15');
+
+INSERT INTO `members` (`member_id`, `member_name`, `date_of_membership`) VALUES ('3', 'sapna', '25'), ('4', 'harsh', '30');
+
