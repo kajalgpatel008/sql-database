@@ -1,0 +1,2 @@
+use library_db;
+create table members(member_id int,member_name varchar(50),date_of_membership int);
