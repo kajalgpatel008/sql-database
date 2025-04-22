@@ -1,1 +1,8 @@
-select books.title, authors.authorsname from books INNER JOIN authors where books.author_id = authors author_id;
+CREATE PROCEDURE select_emp (IN eno int)
+BEGIN
+SELECT * FROM emp WHERE empno = eno;
+END;
+     
+
+
+ 
